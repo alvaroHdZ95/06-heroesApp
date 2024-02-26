@@ -11,6 +11,8 @@ import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { CardComponent } from './components/card/card.component';
 
+import { HeroImagePipe } from './pipes/hero-image.pipe';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,10 @@ import { CardComponent } from './components/card/card.component';
     NewPageComponent,
     SearchPageComponent,
     LayoutPageComponent,
-    CardComponent
+    CardComponent,
+
+    // Pipes
+    HeroImagePipe
   ],
   imports: [
     CommonModule,
